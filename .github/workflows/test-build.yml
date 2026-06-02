@@ -10,6 +10,7 @@ on:
     paths:
       - "requirements.txt"
       - ".github/workflows/test-build.yml"
+  workflow_dispatch:
 
 jobs:
   build:
